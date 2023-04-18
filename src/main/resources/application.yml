@@ -1,0 +1,17 @@
+#management.endpoints.web.exposure.include=*
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+    port: 8090
+    
+course:
+ message: hola desde perfil por defecto
+ defaultvalue: mensaje vacio
+
+spring:
+  profiles:
+    active: dev
+    
