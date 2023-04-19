@@ -1,17 +1,4 @@
-#management.endpoints.web.exposure.include=*
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-server:
-    port: 8090
-    
-course:
- message: hola desde perfil por defecto
- defaultvalue: mensaje vacio
-
-spring:
-  profiles:
-    active: dev
-    
+management.endpoints.web.exposure.include: '*'
+server.port: 8030
+spring.profiles.active: dev
+default.messages: Hola.Este es un mensaje por defecto

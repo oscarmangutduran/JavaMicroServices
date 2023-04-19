@@ -1,2 +1,1 @@
-course:
-   message: hola desde dev
+default.message: Hello World from Service!!!

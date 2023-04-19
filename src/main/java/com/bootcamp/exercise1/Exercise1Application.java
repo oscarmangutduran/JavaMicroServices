@@ -1,15 +1,13 @@
-package ejemplobootCamp.ejemplobootcamp;
+package com.bootcamp.exercise1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EjemplobootcampApplication {
+public class Exercise1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EjemplobootcampApplication.class, args);
+		SpringApplication.run(Exercise1Application.class, args);
 	}
-	
-	
 
 }
