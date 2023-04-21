@@ -1,3 +1,5 @@
-course:
-   message: hola desde prod
- 
+saludo:
+   hello: "Hola desde prod"
+   
+spring.h2.console.enabled: false
+  

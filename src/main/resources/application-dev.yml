@@ -1,2 +1,8 @@
-course:
-   message: hola desde dev
+management.endpoints.web.exposure.include: "*"
+
+saludo:
+   hello: "Hola desde dev"
+   
+server.port: 8090
+
+spring.h2.console.enabled: true
